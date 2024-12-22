@@ -1,0 +1,118 @@
+.body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f5c8c8; /* Light gray background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.card-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full-screen height */
+  overflow: hidden;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Places the image behind content */
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  background-color: rgb(230, 227, 250);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.profile-image {
+  width: 50%; /* Adjust as needed */
+  padding: 20px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  width: 65%;
+  padding: 20px;
+  position: relative;
+}
+
+.hello-label {
+  background-color: #f05252; /* Red background */
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.detail-label {
+  width: 90px;
+  font-weight: bold;
+  color: #555;
+  margin-right: 20px;
+}
+
+.detail-value {
+  flex-grow: 1; /* Allow value to take up remaining space */
+}
+
+.freelance-dates {
+  display: block;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 60px;
+  color: #555;
+  font-size: 17px;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #f05252;
+}
+.card-container {
+  margin-top: 60px;
+}
+.centered {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  min-height: 100vh; /* Ensure full viewport height */
+}
